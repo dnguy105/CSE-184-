@@ -1,0 +1,42 @@
+{
+  "name": "cereals",
+  "version": "0.1.0",
+  "homepage": "https://katekaho.github.io/cereals",
+  "private": true,
+  "dependencies": {
+    "algebra.js": "^0.2.6",
+    "create-react-class": "^15.6.3",
+    "d3": "^5.14.2",
+    "gh-pages": "^2.1.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-input-slider": "^5.1.4",
+    "react-mathjax2": "0.0.2",
+    "react-scripts": "3.2.0",
+    "react-toggle-button": "^2.2.0",
+    "recharts": "^2.0.0-beta.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

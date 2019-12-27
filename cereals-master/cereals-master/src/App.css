@@ -1,0 +1,101 @@
+.App {
+  text-align: center;
+  /* display: flex; */
+  /* flex-direction: column; */
+  justify-content: center;
+  margin: 0 auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h6{
+  text-align: right;
+}
+.body {
+  display: flex;
+  justify-content: left;
+}
+
+.health-score-formula-label {
+  margin: 20px 0 0 0;
+}
+
+.survey {
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  padding: 15px;
+  width: 550px;
+}
+
+.prompt {
+  font-size: 14px;
+}
+
+.questions-and-gains {
+  display: flex;
+}
+
+.gain-items {
+  margin: 32px 0 0 0;
+}
+
+.gain-item {
+  margin: 0 0 106.5px 0;
+}
+
+.cereal-list {
+  margin: 20px 0 0 0;
+}
+
+.bar-chart-and-pie-chart {
+  display: flex;
+  flex-direction: column;
+}
+
+.pie-and-selected {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.weights-label {
+  text-align: end;
+}
+
+.pie-title {
+  margin: 20px 0 0 0;
+  text-align: center;
+}
+
+.toggles {
+  display: flex;
+  justify-content: space-between;
+}
+
+.toggle-label {
+  margin: 0 8px 0 0;
+}
+
+.toggle-button-container {
+  display: flex;
+}
+
+.scatters-label {
+  margin: 15px 0 10px 5px;
+  font-size: 20px;
+}
+
+.scatter-and-label {
+  margin: 30px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* .bar-chart {
+  width:2000px;
+  height: 700px;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+} */
